@@ -4,7 +4,7 @@ import { Send, User, Bot, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './App.css';
 
-const API_URL = 'http://localhost:5001/api/chat';
+const API_URL = `http://${window.location.hostname}:5001/api/chat`;
 
 function App() {
   const [messages, setMessages] = useState([

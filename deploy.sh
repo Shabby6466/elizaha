@@ -30,7 +30,7 @@ rsync -avz --exclude 'venv' \
 
 # --- Remote Orchestration ---
 echo "🐳 Restarting containers on remote server..."
-ssh "$REMOTE_USER_HOST" "cd $REMOTE_PATH && docker-compose up -d --build"
+ssh "$REMOTE_USER_HOST" "cd $REMOTE_PATH && (docker compose up -d --build || docker-compose up -d --build)"
 
 echo "✅ Deployment successful!"
 echo "Your MAHAHA chatbot should be live at the server's IP address on port 3000."

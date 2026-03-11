@@ -44,7 +44,7 @@ This script will:
 cd backend
 # Create and activate venv
 python3 -m venv venv
-source venv/bin/activate # Win: .\venv\Scripts\activate
+source venv/bin/activate
 # Install deps
 pip install -r requirements.txt
 # Run
