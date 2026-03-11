@@ -22,7 +22,8 @@ The easiest way to run the entire stack locally is using the one-command script:
 ./run_local.sh
 ```
 This script will:
-- Check if Docker is running.
+- Check if Docker is installed (and offer to install via Homebrew if missing on Mac).
+- Ensure the Docker daemon is running (and start it for you).
 - Build and start the containers.
 - Provide you with the direct links to access the chatbot.
 
