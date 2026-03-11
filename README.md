@@ -15,14 +15,21 @@ A premium full-stack MAHAHA chatbot featuring a Python Flask backend and a moder
 
 ## Running the Application (Recommended: Docker)
 
-### Local Deployment
-The easiest way to run the entire stack locally is using Docker Compose:
+### Local Deployment (Docker)
+The easiest way to run the entire stack locally is using the one-command script:
 
-1. **Ensure Docker is running** on your machine.
-2. **From the project root, run**:
-   ```bash
-   docker-compose up --build
-   ```
+```bash
+./run_local.sh
+```
+This script will:
+- Check if Docker is running.
+- Build and start the containers.
+- Provide you with the direct links to access the chatbot.
+
+Alternatively, you can run manually:
+```bash
+docker-compose up --build
+```
 3. **Access the chatbot**:
    - **Frontend**: [http://localhost:5002](http://localhost:5002)
    - **Backend API**: [http://localhost:5001/api/chat](http://localhost:5001/api/chat)
