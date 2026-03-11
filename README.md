@@ -60,6 +60,30 @@ npm install
 npm run dev
 ```
 
+## Communication Guide: Getting the Most Out of MAHAHA
+
+MAHAHA is designed to be more than a simple chatbot; it uses specialized therapeutic techniques to help you process your thoughts.
+
+### 1. Solution-Focused (SFBT)
+If you are feeling stuck, MAHAHA will try to help you visualize a future where the problem is solved.
+- **Try saying**: *"I need a miracle"*, *"What if things got better?"*, or *"I have a goal to..."*
+- **The Goal**: To shift your focus from the "why" of the problem to the "how" of the solution.
+
+### 2. Empathetic Reflection (Rogerian)
+MAHAHA listens to your emotions and reflects them back to help you find your own answers.
+- **Try saying**: *"I feel anxious about my job"*, *"I am sad because..."*, or *"I don't know who I am anymore."*
+- **The Goal**: To provide a non-judgmental space where you feel heard, allowing you to explore your feelings deeper.
+
+### 3. Handling Generalizations
+When you use words like "always" or "never," MAHAHA might challenge them to help you find exceptions.
+- **Try saying**: *"Everyone hates me"* or *"I always fail."*
+- **The Goal**: To break negative thought patterns and see the nuances in your life.
+
+### Tips for Better Conversations
+- **Be Specific**: The more detail you provide about your feelings, the more targeted MAHAHA's reflections will be.
+- **Be Open**: Treat the chat as a private journal. MAHAHA is here to explore, not to judge.
+- **Type "bye"**: When you are ready to wrap up your session.
+
 ## Usage
 - Share your thoughts in the chat input.
 - MAHAHA uses 50 sophisticated rules to help you find solutions to your challenges.
